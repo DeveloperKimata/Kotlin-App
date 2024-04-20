@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/circular_status_view"/>
+    <include layout="@layout/list_view"/>
+    <include layout="@layout/chat_button"/>
+    <!--    <include layout="@layout/card_view"/>-->
+
+</com.google.android.material.appbar.AppBarLayout>
